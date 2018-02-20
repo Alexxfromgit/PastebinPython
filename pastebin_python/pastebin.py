@@ -303,7 +303,6 @@ class PastebinPython(object):
 
         return retList
 
-
     def __parseXML(self, xml, isPaste=True):
         """This will handle all of the xml string parsing
 
@@ -323,7 +322,6 @@ class PastebinPython(object):
             retList = self.__parseUser(xmlString)
 
         return retList
-
 
     def deletePaste(self, api_paste_key):
         """This will delete pastes created by certain users
@@ -353,7 +351,6 @@ class PastebinPython(object):
             return True
 
         return False
-
 
     def getUserInfos(self):
         """You can obtain a users personal info and certain settings by calling this function
